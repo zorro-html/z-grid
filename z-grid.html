@@ -1,0 +1,86 @@
+<!--
+
+Inspired from:
+http://www.sitepoint.com/understanding-css-grid-systems/
+
+-->
+
+<style>
+/*------------------------------*\
+    Grid System
+\*------------------------------*/
+
+html /deep/ .row, 
+html /deep/ .column {
+    box-sizing: border-box;
+}
+
+html /deep/ .row:before,
+html /deep/ .row:after {
+    content: " ";
+    display: table;
+}
+
+html /deep/ .row:after {
+    clear: both;
+}
+
+html /deep/ .column {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+html /deep/ .column + .column {
+    margin-left: 1.6%;
+}
+
+html /deep/ .column-1 {
+    width: 6.86666666667%;
+}
+
+html /deep/ .column-2 {
+    width: 15.3333333333%;
+}
+
+html /deep/ .column-3 {
+    width: 23.8%;
+}
+
+html /deep/ .column-4 {
+    width: 32.2666666667%;
+}
+
+html /deep/ .column-5 {
+    width: 40.7333333333%;
+}
+
+html /deep/ .column-6 {
+    width: 49.2%;
+}
+
+html /deep/ .column-7 {
+    width: 57.6666666667%;
+}
+
+html /deep/ .column-8 {
+    width: 66.1333333333%;
+}
+
+html /deep/ .column-9 {
+    width: 74.6%;
+}
+
+html /deep/ .column-10 {
+    width: 83.0666666667%;
+}
+
+html /deep/ .column-11 {
+    width: 91.5333333333%;
+}
+
+html /deep/ .column-12 {
+    width: 100%;
+    margin-left: 0;
+}
+/style>
