@@ -5,120 +5,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no">
 
-<title>Zorro Grid Layout</title>
+<title>Zorro Grid Element</title>
 
-<script src="//g.alicdn.com/mtb/lib-3rd/webcomponentsjs/webcomponents.js"></script>
+<script src="../webcomponentsjs/webcomponents.js"></script>
+<link rel="import" href="../docs-maker/z-doc.html">
+
 <link rel="import" href="z-grid.html">
-<link rel="import" href="demo-sub.html">
-<style>
-      #outer {
-        padding: 20px;
-      }
-
-      #outer .column {
-        background: #eee;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        color: #777;
-        padding: 5px;
-        min-height: 30px;
-        text-align: center;
-      }
-
-      #outer .row {
-        margin-bottom: 10px;
-      }
-
-      #outer .row:last-child {
-        margin-bottom: 0;
-      }
-
-      #outer .column .column {
-        color: #eee;
-        background: #333;
-        border-color: #000;
-      }
-</style>
 
 </head>
 <body>
 
-<z-grid-test style="width: 640px;"></z-grid-test>
-
-<div id="outer" style="width: 480px;">
-    <div class="row">
-        <div class="column column-4"></div>
-        <div class="column column-4"></div>
-        <div class="column column-4"></div>
-    </div>
-    <div class="row">
-        <div class="column column-2"></div>
-        <div class="column column-4"></div>
-        <div class="column column-4"></div>
-        <div class="column column-2"></div>
-    </div>
-    <div class="row">
-        <div class="column column-5"></div>
-        <div class="column column-7"></div>
-    </div>
-    <div class="row">
-        <div class="column column-6">
-            <div class="row">
-                <div class="column column-6"></div>
-                <div class="column column-6"></div>
-            </div>
-            <div class="row">
-                <div class="column column-3"></div>
-                <div class="column column-3"></div>
-                <div class="column column-3"></div>
-                <div class="column column-3"></div>
-            </div>
-            <div class="row">
-                <div class="column column-4"></div>
-                <div class="column column-4"></div>
-                <div class="column column-4"></div>
-            </div>
-        </div>
-        <div class="column column-6">
-            <div class="row">
-                <div class="column column-7"></div>
-                <div class="column column-3"></div>
-                <div class="column column-2"></div>
-            </div>
-            <div class="row">
-                <div class="column column-2"></div>
-                <div class="column column-2"></div>
-                <div class="column column-4"></div>
-                <div class="column column-2"></div>
-                <div class="column column-2"></div>
-            </div>
-            <div class="row">
-                <div class="column column-9"></div>
-                <div class="column column-3"></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column column-8"></div>
-        <div class="column column-4"></div>
-    </div>
-    <div class="row">
-        <div class="column column-1"></div>
-        <div class="column column-3"></div>
-        <div class="column column-4"></div>
-        <div class="column column-3"></div>
-        <div class="column column-1"></div>
-    </div>
-    <div class="row">
-        <div class="column column-3"></div>
-        <div class="column column-3"></div>
-        <div class="column column-3"></div>
-        <div class="column column-3"></div>
-    </div>
-    <div class="row">
-        <div class="column column-12"></div>
-    </div>
-</div>
+<z-doc name="z-grid"></z-doc>
 
 </body>
 </html>
